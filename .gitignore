@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.py[cod]
+mlruns/
+artifacts/mlflow.db
+artifacts/mlflow.db-shm
+artifacts/mlflow.db-wal
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+outputs/*
+!outputs/.gitkeep
+logs/*
+!logs/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
